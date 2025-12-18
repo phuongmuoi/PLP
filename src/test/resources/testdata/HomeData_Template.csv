@@ -1,0 +1,13 @@
+Title,Step,Action,ExpectedElement,ExpectedMessage,Result(pass/Failed)
+TC_HOME_001_Verify_Homepage_Load,1. Navigate to home page,navigate,dashboard,"Dashboard loaded successfully",
+TC_HOME_002_Verify_Page_Title,1. Check page title exists,verify_title,h1.page-title,"Page title is displayed",
+TC_HOME_003_Verify_Main_Menu,1. Check main menu exists,verify_menu,.nav-menu,"Main menu is displayed",
+TC_HOME_004_Verify_Welcome_Message,1. Check welcome message,verify_welcome,.welcome-message,"Welcome message is displayed",
+TC_HOME_005_Verify_User_Profile,1. Check user profile icon,verify_profile,.user-profile,"User profile is displayed",
+TC_HOME_006_Click_Orders_Link,1. Click on Orders link,click_orders,orders,"Navigated to Orders page successfully",
+TC_HOME_007_Click_Products_Link,1. Click on Products link,click_products,products,"Navigated to Products page successfully",
+TC_HOME_008_Click_Settings_Link,1. Click on Settings link,click_settings,settings,"Navigated to Settings page successfully",
+TC_HOME_009_Search_Valid_Keyword,"1. Enter valid keyword|2. Click search button",search_valid,search-results,"Search results displayed",
+TC_HOME_010_Search_Invalid_Keyword,"1. Enter invalid keyword|2. Click search button",search_invalid,no-results,"No results found or error message",
+TC_HOME_011_Logout_Success,1. Click logout button,logout,login,"Logout successful redirect to login",
+TC_HOME_012_Access_Without_Login,1. Navigate to home without login,navigate_no_auth,login,"Redirect to login page error access denied",
